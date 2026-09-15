@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qichen</title>
 </head>
+
 <body>
-    
+    <header class="w-full h-[99px] bg-[#fff] px-[30px] py-[15px] position: sticky top-0 flex justify-between ">
+        <div class="flex items-center gap-10  ">
+            <div class="max-w-[150px] h-[69px] bg-[#DF3F00] py-5 px-[35px] ">
+                <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+            </div>
+            <div class="text-[#000] font-semibold leading-[1] text-[18px] ">
+                <nav class="flex gap-10 [&>a]:hover:text-[red]">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                    <i class="fa-solid fa-magnifying-glass hover:text-[red]"></i>
+                </nav>
+            </div>
+        </div>
+        <div class="flex items-center gap-5">
+            <div class="text-[16px] hover:text-[red]">
+                <i class="fa-solid fa-phone"></i>
+                <span>000 (123) 456 89</span>
+            </div>
+            <div
+                class="bg-[#DF3F00] text-[16px] text-[#fff] font-semibold rounded-[8px] px-[35px] py-[18px] m-[4px] leading-[24px] hover:bg-black">
+                <a href="contact.html">BOOK A TABLE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </header>
+    <footer class="w-full text-[#666666] bg-[rgb(223_59_0_/_7%)] pt-20 mt-20 ">
+        <div class="max-w-[1140px] m-auto flex justify-between pb-20">
+            <div>
+                <div class="bg-[#DF3F00] mb-[30px] py-5 px-[35px] w-[237px] mb-[30px]">
+                    <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+                </div>
+                <p class="text-[18px] mb-5">Sit amet consectetur adipiscing <br> elitsue risus mauris adipis</p>
+                <form>
+                    <div class="bg-[#fff] w-[261px] h-[56px] shadow-xs flex items-center pl-5 ">
+                        <input type="text" placeholder="Email Address" class="outline-none placeholder-[#000]">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h4 class="font-['Forum'] text-[27px] mb-[15px] text-[#0e1317]">Quick Links</h4>
+                <ul class="text-[18px] leading-[35px] [&>li]:hover:text-[red]">
+                    <li>About Company</li>
+                    <li>Home Shop</li>
+                    <li>Our Menu <br> (CMS)</li>
+                    <li>Shop (Ecom)</li>
+                    <li>Recipes</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-[27px] mb-[15px] font-[Forum] text-[#0e1317]">Products</h4>
+                <div class="flex gap-8">
+                    <ul class="leading-[35px] text-[18px] [&>li]:hover:text-[red]">
+                        <li>Hamburger</li>
+                        <li>Chicken Burger</li>
+                        <li>Vegetable Pizza</li>
+                        <li>Chicken Roll</li>
+                        <li>Ice-Cream</li>
+                    </ul>
+                    <ul class="leading-[35px] text-[18px] [&>li]:hover:text-[red]">
+                        <li>Potato</li>
+                        <li>Organic Juice</li>
+                        <li>Lemon Juice</li>
+                        <li>MuTton Tikka</li>
+                        <li>Seafoods</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="mb-5">
+                    <span class="text-[18px] leading-[45px]">Call for order:</span>
+                    <h3 class="text-[40px] text-[#0e1317] font-[Forum] leading-[45px] hover:text-[red]">+1 2586 <br>5892
+                    </h3>
+                    <p class="text-[18px] leading-[30px] text-[#0e1317] hover:text-[red]">qichen@gamil.com</p>
+                </div>
+                <div>
+                    <span class="text-[18px] leading-[45px]">Location :</span>
+                    <p class="text-[#0e1317] text-[18px] leading-[30px]">119 Tonk Road <br> Jaipur, MS 39503</p>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1140px] pb-6 m-auto flex justify-between">
+            <div class="text-[18px]">
+                <p>© 2025 Qichen, All Rights Reserved</p>
+            </div>
+            <div>
+                <ul class="flex text-[18px] gap-6 [&>li]:hover:text-[red]">
+                    <li>Setting & Privacy </li>
+                    <li>Faqs </li>
+                    <li>Food Menu</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
